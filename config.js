@@ -1,16 +1,15 @@
 "use strict";
 
-const config = {
-	channels: ["#thelounge-test"],
+var config = {
+	channels: ["#mailcow"],
 	server: "chat.freenode.net",
-	botName: "lounge-botter",
-	realName: "The Lounge IRC Bot - https://thelounge.chat",
-	password: "password",
+	botName: "Brunhilde",
+	realName: "Mailcow IRC Bot",
 	commandPrefix: "!",
-	ignore: ["Wendy"],
-	githubUser: "thelounge",
-	githubRepo: "thelounge",
-	owners: ["xPaw", "astorije", "YaManicKill", "MaxLeiter"],
-};
+	ignore: ["Brunhilde"],
+	githubUser: "mailcow",
+	githubRepo: "mailcow-dockerized",
+	owners: ["gummipunkt", "andryyy"]
+}
 
 module.exports = config;
