@@ -1,6 +1,6 @@
-# lounge-bot
+# mailcow-bot
 
-A node-js IRC bot for [The Lounge's](https://www.github.com/TheLounge) IRC channel on freenode.
+A node-js IRC bot for [mailcow](https://mailcow.email) IRC channel on freenode.
 
 
 ### Setup and running
@@ -14,14 +14,14 @@ $ yarn start
 Configuration information can be found in the config.json. The default options are below
 ```js
 var config = {
-	channels: ["#thelounge-test"],
+	channels: ["#mailcow"],
 	server: "chat.freenode.net",
-	botName: "lounge-botter",
-	realName: "TheLounge IRC Bot",
+	botName: "Brunhilde",
+	realName: "Mailcow IRC Bot",
 	commandPrefix: "!",
-	ignore: ["Wendy"],
-	githubUser: "thelounge",
-	githubRepo: "lounge",
-	owners: ["xPaw", "astorije", "YaManicKill", "MaxLeiter"]
+	ignore: ["Brunhilde"],
+	githubUser: "mailcow",
+	githubRepo: "mailcow-dockerized",
+	owners: ["gummipunkt", "andryyy"]
 }
 ```
